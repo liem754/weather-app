@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  border: none;
+  outline: none;
+}
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  border-radius: 10px;
+  padding: 50px;
+}
+.app__search {
+  display: flex;
+  justify-content: space-between;
+}
+.app__search input {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.app__search img {
+  width: 32px;
+  height: 32px;
+}
+.app__search button {
+  background-color: white;
+
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__icon {
+  margin: 20px 0;
+  text-align: center;
+}
+.app h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.app h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.app__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+.humidity,
+.wind {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.humidity span,
+.wind span {
+  display: block;
+  color: white;
+}
+.humidity__all,
+.wind__all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.humidity__number,
+.wind__number {
+  font-size: 30px;
+  font-weight: 500;
+}
+.humidity__info,
+.wind__info {
+  font-size: 20px;
+}
